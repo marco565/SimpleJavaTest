@@ -15,4 +15,10 @@ public class UneClasse {
 		Name = name;
 	}
 	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.getName();
+	}
+	
 }
